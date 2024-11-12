@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZSWIntegrationTestDemo'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of ZSWIntegrationTestDemo.'
+  s.summary          = 'ZSWIntegrationTestDemo is the integration test demo.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -11,8 +11,7 @@ Pod::Spec.new do |s|
 
     # 长的描述信息
   s.description      = <<-DESC
-Wow this is a amazing kit,
-Enjoy yourself!
+  ZSWIntegrationTestDemo is the integration test demo.
                        DESC
 
     # 提交到git服务区的项目主页，没提交可以指定任意值，但需要保留这一项，否则会报错
@@ -25,12 +24,11 @@ Enjoy yourself!
     # 提交到git上的源码路径，没提交可以指定任意值，但需要保留这一项，否则会报错
     # attributes: Missing required attribute `source`.
     s.source           = { :git => 'https://github.com/zhoushiwei979/ZSWIntegrationTestDemo.git', :tag => s.version.to_s }
-    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
     # 指定最低的ios版本
     s.ios.deployment_target = '14.0'
 
     # 源文件的路径
-    s.source_files = 'cocoapod集成测试demo/Class/**/*.{h,m}'
+    s.source_files = 'ZSWIntegrationTestDemo/**/*'
 
 end
