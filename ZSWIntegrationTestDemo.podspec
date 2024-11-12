@@ -29,6 +29,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '14.0'
 
     # 源文件的路径
-    s.source_files = 'ZSWIntegrationTestDemo'
+    s.source_files = 'ZSWIntegrationTestDemo/**/*'
 
 end
