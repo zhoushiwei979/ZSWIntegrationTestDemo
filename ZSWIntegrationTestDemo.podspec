@@ -30,9 +30,8 @@ Pod::Spec.new do |s|
 
     # 源文件的路径
     s.source_files = 'ZSWIntegrationTestDemo/Classes/**/*'
-    
-    s.subspec 'ZSWIntegrationTestDemo' do |ZSWIntegrationTestDemo|
-        ZSWIntegrationTestDemo.source_files = 'ZSWIntegrationTestDemo/Classes/ViewController.*'
+
+
   end
 
 end
